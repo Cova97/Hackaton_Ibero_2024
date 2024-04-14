@@ -47,8 +47,7 @@ class _PasswordEditWidgetState extends State<PasswordEditWidget> {
           automaticallyImplyLeading: false,
           actions: const [],
           flexibleSpace: FlexibleSpaceBar(
-            title: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
+            title: SingleChildScrollView(
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -99,6 +98,7 @@ class _PasswordEditWidgetState extends State<PasswordEditWidget> {
             ),
             centerTitle: true,
             expandedTitleScale: 1.0,
+            titlePadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 4.0),
           ),
           elevation: 0.0,
         ),
@@ -106,7 +106,7 @@ class _PasswordEditWidgetState extends State<PasswordEditWidget> {
       body: SafeArea(
         top: true,
         child: Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
+          padding: const EdgeInsetsDirectional.fromSTEB(0.0, 100.0, 0.0, 0.0),
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [

@@ -7,3 +7,6 @@ export '/pages/tips_reto/tips_reto_widget.dart' show TipsRetoWidget;
 export '/pages/profile/profile_widget.dart' show ProfileWidget;
 export '/pages/profile_edit/profile_edit_widget.dart' show ProfileEditWidget;
 export '/pages/password_edit/password_edit_widget.dart' show PasswordEditWidget;
+export '/pages/cosa_positiva/cosa_positiva_widget.dart' show CosaPositivaWidget;
+export '/pages/todo_lo_positivo/todo_lo_positivo_widget.dart'
+    show TodoLoPositivoWidget;

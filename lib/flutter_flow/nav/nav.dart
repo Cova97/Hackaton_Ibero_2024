@@ -126,6 +126,23 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'PasswordEdit',
           path: '/passwordEdit',
           builder: (context, params) => const PasswordEditWidget(),
+        ),
+        FFRoute(
+          name: 'CosaPositiva',
+          path: '/cosaPositiva',
+          builder: (context, params) => CosaPositivaWidget(
+            recivePositiva: params.getParam(
+              'recivePositiva',
+              ParamType.DocumentReference,
+              false,
+              ['users', 'Diario'],
+            ),
+          ),
+        ),
+        FFRoute(
+          name: 'TodoLoPositivo',
+          path: '/todoLoPositivo',
+          builder: (context, params) => const TodoLoPositivoWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
