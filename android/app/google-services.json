@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1001981657941",
+    "project_id": "prueba-hackaton-7cb3e",
+    "storage_bucket": "prueba-hackaton-7cb3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001981657941:android:f62ab700e7d309dba665dc",
+        "android_client_info": {
+          "package_name": "com.mycompany.hackathonibero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh_ZQSkqozxl2w2701iWvt35V9HMYsCYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001981657941:android:2f7cc6689bbeda29a665dc",
+        "android_client_info": {
+          "package_name": "com.mycompany.prueba1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh_ZQSkqozxl2w2701iWvt35V9HMYsCYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
